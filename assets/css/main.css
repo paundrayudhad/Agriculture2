@@ -1452,6 +1452,10 @@ section,
   transition: 0.3s all ease;
 }
 
+.team .person figure img {
+  height: 30em;
+}
+
 .team .person .person-contents {
   text-align: center;
 }
