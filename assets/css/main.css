@@ -818,6 +818,7 @@ section,
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+  text-align: center;
 }
 
 .hero .carousel-item:before {
@@ -957,9 +958,10 @@ section,
 .services .content .service-item {
   background-color: var(--surface-color);
   padding: 20px 30px;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  /* border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
   position: relative;
+  border-radius: 2%;
 }
 
 .services .content .service-item .number {
@@ -977,7 +979,8 @@ section,
 }
 
 .services .content .service-item .service-item-icon img {
-  width: 50px;
+  width: 20em;
+  height: 15em;
 }
 
 .services .content .service-item .service-item-icon:before {
