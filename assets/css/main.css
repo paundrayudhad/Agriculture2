@@ -1036,6 +1036,9 @@ section,
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
     margin-bottom: 10px;
   }
+  .services .content .service-item .service-item-icon img {
+   max-width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
